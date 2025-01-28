@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from lightgbm import LGBMClassifier
 from sklearn.metrics import classification_report, confusion_matrix
-from data_load import load_data, preprocess_data
+from data_load import load_data, preprocess_data, save_processed_data
 
 
 #Class Instance
